@@ -8,32 +8,32 @@ int main()
     cin >> x;
     switch ( x )
 	{
-        case 1:            
-            printf("Tochka\n");
+        case (1):            
+            printf("\tTochka\n");
             break;
-        case 2:
-            printf("Otrezok\n");
+        case (2):
+            printf("\tOtrezok\n");
             break;
-        case 3:
-            printf("Treugolnik\n");
+        case (3):
+            printf("\tTreugolnik\n");
             break;
-        case 4:
-            printf( "Kvadrat\n" );
+        case (4):
+            printf("\tKvadrat\n");
             break;
-		case 5:            
-            printf("Pyatiugolnik\n");
+	case (5):            
+            printf("\tPyatiugolnik\n");
             break;
-        case 6:
-            printf("Shestiugolnik\n");
+        case (6):
+            printf("\tShestiugolnik\n");
             break;
-        case 7:
-            printf("Semiugolnik\n");
+        case (7):
+            printf("\tSemiugolnik\n");
             break;
-        case 8:
-            printf( "Vosmiugolnik\n" );
+        case (8):
+            printf("\tVosmiugolnik\n");
             break;
         default:
-            printf( "Nevernoe znachenie\n" );
+            printf("\tNevernoe znachenie\n");
     }
     getchar();
     return 0;
