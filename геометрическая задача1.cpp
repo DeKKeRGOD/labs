@@ -3,6 +3,7 @@
 int main()
 {
     cout << "Opredelenie formy figury";
+	cout << "Vvedite x";
     cin >> x;
     switch ( x )
 	{
