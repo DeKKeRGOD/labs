@@ -6,11 +6,11 @@ int main()
     cout << "Opredelenie formy figury";
 	cout << "Vvedite x";
     cin >> x;
-    switch ( x )// вводим инструкцию многонаправленного ветвления, которая позволяет выбирать из нескольких вариантов
+    switch ( x )
 	{
         case 1:            
             printf("Tochka\n");
-            break;// завершение выполнения первого варианта, определенного инструкцией switch
+            break;
         case 2:
             printf("Otrezok\n");
             break;
