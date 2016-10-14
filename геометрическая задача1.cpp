@@ -1,15 +1,16 @@
-#include <stdio.h>
- 
+#include "stdafx.h"
+#include <iostream>
+
 int main()
 {
     cout << "Opredelenie formy figury";
 	cout << "Vvedite x";
     cin >> x;
-    switch ( x )
+    switch ( x )// вводим инструкцию многонаправленного ветвления, которая позволяет выбирать из нескольких вариантов
 	{
         case 1:            
             printf("Tochka\n");
-            break;
+            break;// завершение выполнения первого варианта, определенного инструкцией switch
         case 2:
             printf("Otrezok\n");
             break;
